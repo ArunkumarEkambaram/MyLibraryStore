@@ -12,10 +12,9 @@ namespace MyLibraryStore.Controllers
         {
             return View();
         }
-
-        public IActionResult Action()
+        public IActionResult Edit()
         {
-            return Content("Hello Sir........");
+            return View();
         }
     }
 }
