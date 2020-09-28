@@ -6,20 +6,15 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MyLibraryStore.Controllers
 {
-    public class CustomersController : Controller
+    public class MyController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
-        public IActionResult Edit()
+        public IActionResult NewMethod()
         {
             return View();
-        }
-
-        public IActionResult Action()
-        {
-            return Content("Hello Sir........");
         }
     }
 }
